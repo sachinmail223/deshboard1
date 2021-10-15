@@ -1,0 +1,44 @@
+.PostsPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Up{
+    display: flex;
+    margin: 10px;
+}
+.Down{
+    display: flex;
+    margin: 10px;
+}
+.box{
+    margin: 10px;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 10px;
+    background-color: white;
+position: relative;
+overflow: auto;
+}
+.box a{
+    text-decoration: none;
+    color: rgb(92, 90, 182);
+    font-size: .6rem;
+    line-height: .5rem;
+}
+.box ol{
+    margin-top: 30px;
+}
+.box li {
+    font-size: .8rem;
+    box-sizing: border-box;
+}
+.box p{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: .6rem;
+
+}

@@ -1,0 +1,138 @@
+.row {
+  display: flex;
+}
+.Dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TotalNo {
+  width: 45vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 10px;
+  position: relative;
+  border-radius: 20px;
+}
+.TotalNo p {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.MonthPostsChart {
+  width: 45vw;
+  height: 45vh;
+  background-color: white;
+  margin: 10px;
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+.verticle{
+  display: flex;
+  flex-direction: column;
+  width: 5%;
+  margin-top: 2rem;
+  height: 87%;
+}
+.bar{
+  width: 70%;
+  border-bottom:1px solid rgb(192, 187, 187);
+  border-left: 1px solid rgb(192, 187, 187);
+  margin-top: 2rem;
+  height: 75%;
+  display: flex;
+  align-items: flex-end;
+  /* position: relative; */
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+.bar div{
+  width: 1.5rem;
+  /* height: 5rem; */
+  border: 1px solid rgb(129, 124, 124);
+  background-color: rgb(192, 187, 187);;
+  margin: 0;
+  margin-right: .2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+}
+.barD span{
+  position: absolute;
+  bottom: -12px;
+  font-size: 0.5rem;
+  color: rgb(192, 187, 187);
+}
+.verticle span{
+  font-size: .6rem;
+  color: rgb(192, 187, 187);
+  height: 8%;
+  display: flex;
+  align-items: flex-end;
+}
+.MonthPostsChart p {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 10px;
+    font-weight: 500;
+  }
+.MonthPostsGraph{
+  height: 70%;
+  width: 90%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.MonthPostsGraph div{
+    width: 8%;
+    height: 100%;
+    background-color: black;
+    margin-right: 10px;
+
+}
+
+.PostsList {
+  width: 45vw;
+  height: 45vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 10px;
+  position: relative;
+  border-radius: 20px;
+}
+.PostsList p {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 10px;
+  font-weight: 500;
+}
+.PostsListDiv {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  margin-right: 10px;
+}
+.PostsListDiv a {
+  color: #1b68a7;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: .8rem;
+  display: flex;
+}
+.PostsListDiv a > span {
+  margin-right: 20px;
+}
